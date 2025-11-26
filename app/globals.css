@@ -18,3 +18,45 @@
   --background: #0d1117;
   --foreground: #ffffff;
 }
+
+.social-icon {
+  @apply bg-primary p-2 rounded-full text-white hover:bg-purple-800 cursor-pointer;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #7e6aa1, #6d71ab);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #7e6aa1, #6d71ab);
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-animated {
+  background: linear-gradient(90deg, #7e6aa1, #6d71ab, #7e6aa1);
+  background-size: 200% 200%;
+  animation: gradientMove 3s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
