@@ -14,12 +14,14 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import AnimatedText from "./Theme/TypeWriterText.jsx";
+import Menu from "./Navbar/Menu.jsx";
+import MobileMenu from "./Navbar/MobileMenu.jsx";
 
 const Home = () => {
   return (
     <>
       <div className="min-h-screen flex items-center justify-center">
-        <div className="container text-gray-900 mx-auto w-[60%] flex flex-col md:flex-row items-center gap-8 p-4">
+        <div className="container text-gray-900 mx-auto md:w-[70%] flex flex-col md:flex-row items-center gap-8 p-4">
           {/* my img and details */}
           <div className="md:w-[30%]">
             <div className="flex flex-col items-center">
@@ -78,9 +80,9 @@ const Home = () => {
             </div>
           </div>
           {/* about me and cv button */}
-          <div className="md:w-[40%] space-y-4 dark:text-white p-6">
-            <h3 className="text-xl font-bold text-primary">Hello I'M</h3>
-            <h2 className="font-extrabold text-4xl">Mahmud Hussain!</h2>
+          <div className="md:w-[65%] space-y-4 max-sm:space-x-5 dark:text-white p-4">
+            <h3 className="text-2xl font-bold text-primary">Hello I'M</h3>
+            <h2 className="font-extrabold text-5xl">Mahmud Hussain!</h2>
 
             <AnimatedText
               text={[
@@ -112,24 +114,42 @@ const Home = () => {
               <h4 className="text-md font-semibold">Follow Me: </h4>
               <div className="flex gap-4">
                 {/* social icons */}
-                <span className="social-icon">
+                <a
+                  href="https://www.facebook.com/mahmudhussainn"
+                  target="_blank"
+                  className="social-icon"
+                >
                   <FaFacebookF />
-                </span>
-                <span className="social-icon">
+                </a>
+                <a
+                  href="https://www.instagram.com/mahmudhussaindev"
+                  target="_blank"
+                  className="social-icon"
+                >
                   <FaInstagram />
-                </span>
-                <span className="social-icon">
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/mahmudhussain76"
+                  target="_blank"
+                  className="social-icon"
+                >
                   <FaLinkedinIn />
-                </span>
-                <span className="social-icon">
+                </a>
+                <a
+                  href="https://github.com/mahmudhussaininfo"
+                  target="_blank"
+                  className="social-icon"
+                >
                   <FaGithub />
-                </span>
+                </a>
               </div>
             </div>
           </div>
 
           {/* menu */}
-          <div className="md:w-[30%] dark:text-white"></div>
+          <div className="max-sm:hidden md:w-[40%] dark:text-white flex md:justify-end">
+            <Menu />
+          </div>
         </div>
       </div>
     </>

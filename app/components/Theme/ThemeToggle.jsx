@@ -14,13 +14,13 @@ export default function ThemeToggle() {
       <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
         {theme === "dark" ? (
           <MdOutlineNightlight
-            size={35}
-            className="bg-[#786da7] rounded-full p-1 text-white"
+            size={40}
+            className="bg-[#786da7] rounded-full p-2 text-white"
           />
         ) : (
           <MdOutlineLightMode
-            size={35}
-            className="bg-[#786da7] rounded-full p-1 text-white"
+            size={40}
+            className="bg-[#786da7] rounded-full p-2 text-white"
           />
         )}
       </button>
