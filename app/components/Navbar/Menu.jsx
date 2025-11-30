@@ -4,10 +4,12 @@ import { TiContacts } from "react-icons/ti";
 import { CgShoppingBag } from "react-icons/cg";
 import { RiBloggerLine } from "react-icons/ri";
 
-const Menu = () => {
+const Menu = ({ style = "" }) => {
   return (
     <>
-      <div className="flex md:flex-col md:gap-6 items-center md:p-4">
+      <div
+        className={`flex md:gap-6 items-center md:p-4 ${style} max-sm:hidden`}
+      >
         <div className="">
           <Link href="/">
             <div className="group relative flex items-center">

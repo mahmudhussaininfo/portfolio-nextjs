@@ -16,6 +16,7 @@ import {
 import AnimatedText from "./Theme/TypeWriterText.jsx";
 import Menu from "./Navbar/Menu.jsx";
 import MobileMenu from "./Navbar/MobileMenu.jsx";
+import ContactInformation from "./Contact/ContactInformation.jsx";
 
 const Home = () => {
   return (
@@ -42,40 +43,7 @@ const Home = () => {
                 <p className="text-gray-600">Full Stack Developer</p>
                 <hr className="my-5" />
 
-                <div className="flex flex-col gap-2 mb-2 px-8 rounded-lg">
-                  <div className="flex items-center gap-3">
-                    <MdLocalPhone
-                      className="bg-[#786da7] p-2 rounded-full border bottom-2 border-gray-600"
-                      color="white"
-                      size={40}
-                    />
-                    <span className="text-md font-semibold">
-                      <Link href="tel:+88017767576505">+8801776757650</Link>
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <LiaEnvelopeOpen
-                      className="bg-[#786da7] p-2 rounded-full border bottom-2 border-gray-600"
-                      color="white"
-                      size={40}
-                    />
-                    <span className="text-md font-semibold">
-                      <Link href="mailto:mahmudhussaininfo@gmail.com">
-                        mahmudhussaininfo@gmail.com
-                      </Link>
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <MdOutlineLocationOn
-                      className="bg-[#786da7] p-2 rounded-full border bottom-2 border-gray-600"
-                      color="white"
-                      size={40}
-                    />
-                    <span className="text-md font-semibold">
-                      <Link href="tel:+88017767576505">+8801776757650</Link>
-                    </span>
-                  </div>
-                </div>
+                <ContactInformation />
               </div>
             </div>
           </div>
@@ -148,7 +116,7 @@ const Home = () => {
 
           {/* menu */}
           <div className="max-sm:hidden md:w-[40%] dark:text-white flex md:justify-end">
-            <Menu />
+            <Menu style="flex-col" />
           </div>
         </div>
       </div>
