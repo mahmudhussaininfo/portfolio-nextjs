@@ -37,7 +37,7 @@ const Form = () => {
         <form onSubmit={handleSubmit} className="flex flex-col text-sm">
           <div className="flex flex-col md:flex-row gap-3">
             <div className="w-full">
-              <label className="md:text-2xl font-bold" htmlFor="name">
+              <label className="md:text-xl font-bold" htmlFor="name">
                 Your Name
               </label>
               <input
@@ -48,7 +48,7 @@ const Form = () => {
               />
             </div>
             <div className="w-full">
-              <label className="md:text-2xl font-bold" htmlFor="name">
+              <label className="md:text-xl font-bold" htmlFor="name">
                 Your Email
               </label>
               <input
@@ -60,7 +60,7 @@ const Form = () => {
             </div>
           </div>
           <div className="mt-6">
-            <label className="md:text-2xl font-bold" htmlFor="name">
+            <label className="md:text-xl font-bold" htmlFor="name">
               Message
             </label>
             <textarea

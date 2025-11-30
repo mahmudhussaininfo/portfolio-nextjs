@@ -19,7 +19,7 @@ const ContactInformation = ({ contact }) => {
           <span className="text-md font-semibold">
             {contact && (
               <>
-                <h2 className="md:text-3xl font-bold">Call Me</h2>
+                <h2 className="md:text-xl font-bold mb-2">Call Me</h2>
               </>
             )}
 
@@ -37,7 +37,7 @@ const ContactInformation = ({ contact }) => {
           <span className="text-md font-semibold">
             {contact && (
               <>
-                <h2 className="md:text-3xl font-bold">Email Me</h2>
+                <h2 className="md:text-xl font-bold mb-2">Email Me</h2>
               </>
             )}
             <Link href="mailto:mahmudhussaininfo@gmail.com">
@@ -61,7 +61,7 @@ const ContactInformation = ({ contact }) => {
           <span className="text-md font-semibold">
             {contact && (
               <>
-                <h2 className="md:text-3xl font-bold">Location</h2>
+                <h2 className="md:text-xl font-bold mb-2">Location</h2>
               </>
             )}
             <p>Sylhet, Bangladesh</p>

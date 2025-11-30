@@ -20,6 +20,19 @@ const ContactPage = () => {
             <ContactInformation contact={true} />
           </div>
         </div>
+
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14475.317633020652!2d91.919696!3d24.9037999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2sSylhet!5e0!3m2!1sen!2sbd!4v1764500542352!5m2!1sen!2sbd"
+            width="600"
+            height="450"
+            className="w-[70%] mx-auto shadow-md my-16 rounded-lg"
+            style={{ border: 0, borderRadius: "10px" }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </>
   );
