@@ -3,51 +3,15 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image.js";
-
-const categories = ["all", "print", "strategy", "logo", "webs", "nextjs"];
-
-const items = [
-  {
-    id: 1,
-    cat: "logo",
-
-    url: "#",
-  },
-  { id: 2, cat: "logo" },
-  { id: 3, cat: "webs" },
-  { id: 4, cat: "print" },
-  { id: 5, cat: "strategy" },
-  {
-    id: 6,
-    cat: "strategy webs print",
-  },
-  { id: 7, cat: "webs" },
-  { id: 8, cat: "strategy" },
-  {
-    id: 9,
-    cat: "webs strategy",
-  },
-  {
-    id: 10,
-    cat: "nextjs",
-    img: "/weather.png",
-    url: "https://github.com/mahmudhussaininfo/rnext-weather",
-  },
-  {
-    id: 11,
-    cat: "nextjs-movieCart",
-    img: "/movieCart.png",
-    url: "https://github.com/mahmudhussaininfo/movieCart",
-  },
-];
+import { Categories, Items } from "@/utils/data.js";
 
 export default function Gallery() {
   const [active, setActive] = useState("all");
 
   const filtered =
     active === "all"
-      ? items
-      : items.filter((item) => item.cat.includes(active));
+      ? Items
+      : Items.filter((item) => item.cat.includes(active));
 
   return (
     <div className="max-w-5xl mx-auto py-12">
@@ -55,7 +19,7 @@ export default function Gallery() {
 
       {/* FILTER TABS */}
       <ul className="flex gap-4 justify-center mb-10 flex-wrap">
-        {categories.map((c) => (
+        {Categories.map((c) => (
           <li key={c}>
             <button
               onClick={() => setActive(c)}
@@ -87,10 +51,10 @@ export default function Gallery() {
             >
               <Image
                 src={item.img}
-                width={500}
-                height={500}
+                width={250}
+                height={250}
                 alt=""
-                className="w-full h-full object-cover"
+                className="object-cover w-full h-60 block group-hover:scale-110 transition-transform duration-500"
               />
 
               {/* OVERLAY */}
