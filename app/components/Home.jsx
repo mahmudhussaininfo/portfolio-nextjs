@@ -22,7 +22,7 @@ const Home = () => {
             <div className="flex flex-col items-center w-full">
               <div className="w-52 h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-[6px] border-white bg-[#7d6ba1] z-50 shadow-lg -mb-24 md:-mb-36 lg:-mb-40">
                 <Image
-                  src="/mamud1.png"
+                  src="/mahmud.png"
                   width={300}
                   height={300}
                   alt="mahmud.png"
