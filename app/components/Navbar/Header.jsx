@@ -25,7 +25,7 @@ const Header = () => {
             />
           </Link>
 
-          <div className="flex items-center gap-4 max-sm:mr-4">
+          <div className="flex items-center gap-4">
             <ThemeToggle />
           </div>
         </div>
