@@ -12,11 +12,11 @@ const ContactInformation = ({ contact }) => {
       >
         <div className={`flex items-center gap-3 `}>
           <MdLocalPhone
-            className={`bg-[#786da7] p-2 rounded-full border bottom-2 border-gray-600`}
+            className={`bg-[#786da7] md:p-2 rounded-full border bottom-2 border-gray-600`}
             color="white"
             size={contact ? 50 : 40}
           />
-          <span className="text-md font-semibold">
+          <span className="md:text-md text-sm font-semibold">
             {contact && (
               <>
                 <h2 className="md:text-xl font-bold mb-2">Call Me</h2>
@@ -30,11 +30,11 @@ const ContactInformation = ({ contact }) => {
         </div>
         <div className="flex items-center gap-3">
           <LiaEnvelopeOpen
-            className="bg-[#786da7] p-2 rounded-full border bottom-2 border-gray-600"
+            className="bg-[#786da7] md:p-2 rounded-full border bottom-2 border-gray-600"
             color="white"
             size={contact ? 50 : 40}
           />
-          <span className="text-md font-semibold">
+          <span className="md:text-md text-sm font-semibold">
             {contact && (
               <>
                 <h2 className="md:text-xl font-bold mb-2">Email Me</h2>
@@ -54,11 +54,11 @@ const ContactInformation = ({ contact }) => {
         </div>
         <div className="flex items-center gap-3">
           <MdOutlineLocationOn
-            className="bg-[#786da7] p-2 rounded-full border bottom-2 border-gray-600"
+            className="bg-[#786da7] md:p-2 rounded-full border bottom-2 border-gray-600"
             color="white"
             size={contact ? 50 : 40}
           />
-          <span className="text-md font-semibold">
+          <span className="md:text-md text-sm font-semibold">
             {contact && (
               <>
                 <h2 className="md:text-xl font-bold mb-2">Location</h2>
