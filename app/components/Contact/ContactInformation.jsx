@@ -6,7 +6,7 @@ const ContactInformation = ({ contact }) => {
   return (
     <>
       <div
-        className={`flex flex-col gap-4 mb-2 px-8 rounded-lg ${
+        className={`flex flex-col gap-4 mb-2 md:px-8 px-3 rounded-lg ${
           contact ? "gap-6" : ""
         }`}
       >

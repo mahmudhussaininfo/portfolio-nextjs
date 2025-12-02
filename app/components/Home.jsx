@@ -18,7 +18,7 @@ const Home = () => {
       <div className="min-h-screen flex items-center justify-center">
         <div className="container text-gray-900 mx-auto md:w-[70%] flex flex-col md:flex-row items-center gap-8 p-4 max-sm:mt-10">
           {/* my img and details */}
-          <div className="md:w-1/3 w-full px-5 md:px-0">
+          <div className="md:w-1/3 w-full px-3 md:px-0">
             <div className="flex flex-col items-center w-full">
               <div className="w-52 h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-[6px] border-white bg-[#7d6ba1] z-50 shadow-lg -mb-12 md:-mb-36 lg:-mb-40">
                 <Image
