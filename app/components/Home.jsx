@@ -69,7 +69,7 @@ const Home = () => {
               download
               className="btn-gradient flex items-center gap-2"
             >
-              <span>
+              <span className="text-xl md:text-2xl">
                 <MdOutlineCloudDownload />
               </span>
               <span>Download CV</span>
@@ -81,28 +81,28 @@ const Home = () => {
                 <a
                   href="https://www.facebook.com/mahmudhussainn"
                   target="_blank"
-                  className="social-icon"
+                  className="social-icon text-lg md:text-2xl"
                 >
                   <FaFacebookF />
                 </a>
                 <a
                   href="https://www.instagram.com/mahmudhussaindev"
                   target="_blank"
-                  className="social-icon"
+                  className="social-icon text-lg md:text-2xl"
                 >
                   <FaInstagram />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/mahmudhussain76"
                   target="_blank"
-                  className="social-icon"
+                  className="social-icon text-lg md:text-2xl"
                 >
                   <FaLinkedinIn />
                 </a>
                 <a
                   href="https://github.com/mahmudhussaininfo"
                   target="_blank"
-                  className="social-icon"
+                  className="social-icon text-lg md:text-2xl"
                 >
                   <FaGithub />
                 </a>
