@@ -43,7 +43,7 @@ const Home = () => {
           </div>
           {/* about me and cv button */}
           <div className="md:w-1/2 space-y-4 dark:text-white p-4">
-            <h3 className="text-2xl font-bold text-primary">Hello I'M</h3>
+            <h3 className="text-2xl font-bold text-primary">{"Hello I'M"}</h3>
             <h2 className="font-extrabold text-5xl">Mahmud Hussain!</h2>
 
             <AnimatedText
