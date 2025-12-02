@@ -26,7 +26,7 @@
 
 <hr/>
 
-<img align="center" width=600 src="https://github.com/mahmudhussaininfo/portfolio-nextjs/photos/portfolio.png"/>
+<img align="center" width=600 src="https://github.com/mahmudhussaininfo/portfolio-nextjs/blob/mrmamu/photos/portfolio.png"/>
 
 <hr/>
 
