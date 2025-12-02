@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <div className="min-h-screen flex items-center justify-center">
-        <div className="container text-gray-900 mx-auto md:w-[70%] flex flex-col md:flex-row items-center gap-8 p-4">
+        <div className="container text-gray-900 mx-auto md:w-[70%] flex flex-col md:flex-row items-center gap-8 p-4 max-sm:mt-10">
           {/* my img and details */}
           <div className="md:w-1/3">
             <div className="flex flex-col items-center w-full">

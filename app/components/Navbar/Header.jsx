@@ -7,21 +7,21 @@ const Header = () => {
   return (
     <div>
       <div className="md:container md:mx-auto md:w-[65%]">
-        <div className="flex items-center justify-between pt-3 max-sm:px-2">
+        <div className="flex items-center justify-between pt-3">
           <Link href="/">
             <Image
               src="/logo-light.png"
               alt="logo"
               width={250}
               height={250}
-              className="block dark:hidden"
+              className="block dark:hidden max-sm:w-52"
             />
             <Image
               src="/logo.png"
               alt="logo"
               width={250}
               height={250}
-              className="hidden dark:block"
+              className="hidden dark:block max-sm:w-52"
             />
           </Link>
 
