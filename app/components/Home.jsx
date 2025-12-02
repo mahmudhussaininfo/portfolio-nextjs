@@ -20,7 +20,7 @@ const Home = () => {
           {/* my img and details */}
           <div className="md:w-1/3">
             <div className="flex flex-col items-center w-full">
-              <div className="w-52 h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-[6px] border-white bg-[#7d6ba1] z-50 shadow-lg -mb-24 md:-mb-36 lg:-mb-40">
+              <div className="w-52 h-52 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-[6px] border-white bg-[#7d6ba1] z-50 shadow-lg -mb-12 md:-mb-36 lg:-mb-40">
                 <Image
                   src="/mahmud.png"
                   width={300}
@@ -30,7 +30,7 @@ const Home = () => {
                 />
               </div>
 
-              <div className="text-center dark:bg-white bg-gray-100 p-2 rounded-lg pt-28 md:pt-40 pb-10 w-full">
+              <div className="text-center dark:bg-white bg-gray-100 p-2 rounded-lg pt-20 md:pt-40 pb-10 w-full">
                 <h1 className="text-2xl font-bold text-black">
                   Mahmud Hussain
                 </h1>
