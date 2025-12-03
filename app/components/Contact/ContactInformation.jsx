@@ -22,9 +22,9 @@ const ContactInformation = ({ contact }) => {
         />
         <span className="md:text-md text-sm font-semibold">
           {contact && <h2 className="md:text-xl font-bold mb-2">Call Me</h2>}
-          <Link href="tel:+88017767576505">+88017767576505</Link>
+          <Link href="tel:+8801776757650">+8801776757650</Link>
           <br />
-          {contact && <Link href="tel:+8801623116507">+8801623116507</Link>}
+          {contact && <Link href="tel:+8801623611233">+8801623611233</Link>}
         </span>
       </div>
 
