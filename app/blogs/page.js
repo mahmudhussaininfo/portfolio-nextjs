@@ -1,6 +1,12 @@
 import React from "react";
 import Title from "../components/Title/Title.jsx";
 
+export const metadata = {
+  title: "Blogs - Mahmud Hussain",
+  description:
+    "Welcome to my portfolio website! I'm Mahmud Hussain, a passionate developer specializing in creating dynamic and responsive web applications. Explore my projects, skills, and experience as you navigate through my site.",
+};
+
 const BlogPage = () => {
   return (
     <>
